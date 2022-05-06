@@ -1741,7 +1741,7 @@ img {
     width: 100px;
   }
   .character-section {
-    padding: 70px 0 47px 0;
+    padding: 90px 0 47px 0;
     overflow: hidden;
     height: auto;
   }
@@ -1788,11 +1788,17 @@ img {
   }
 }
 
+/* About Section */
+
 .about-us {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 8em 0;
+}
+
+.about-us h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  font: 86px / 129px "Bebas Neue";
+  color: #fbe200;
 }
 
 #aboutCarousel .carousel-inner {
