@@ -27,6 +27,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+  scroll-behavior: smooth;
 }
 body {
   min-height: 100%;
@@ -1632,6 +1633,12 @@ img {
   margin: 0 0 20px 0;
   padding: 0 0 0 20px;
   color: #ededed;
+}
+
+.faq-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Team Title Texts */
