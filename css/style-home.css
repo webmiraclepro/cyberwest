@@ -711,6 +711,7 @@ img {
 .team-section .team-img-wrapper .profile-img {
   display: block;
   max-width: 100%;
+  border-radius: 50%;
 }
 .team-section .social-link {
   position: absolute;
@@ -1577,12 +1578,8 @@ img {
   margin: 0 auto;
 }
 .faq-section h1 {
-  /* text-align: center;
-  color: #ededed;
-  font: 46px / 66px GothamPro-Bold;
-  margin: 0; */
   text-align: center;
-  margin: 0 0 3px 0;
+  margin: 0 auto 80px auto;
   font: 86px / 129px "Bebas Neue";
   color: #fbe200;
 }
