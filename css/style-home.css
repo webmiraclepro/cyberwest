@@ -1216,7 +1216,7 @@ img {
   text-align: center;
   margin: 0 0 3px 0;
   font: 86px / 129px "Bebas Neue";
-  color: #fbe200;
+  color: #b026ff;
 }
 .journey-banner h2 {
   text-align: center;
@@ -1375,7 +1375,7 @@ img {
 }
 .journey-roadmap .completed h3,
 .journey-roadmap .ongoing h3 {
-  color: #fbe200;
+  color: #b026ff;
 }
 .journey-roadmap .box p {
   margin: 0 0 10px 0;
@@ -1467,7 +1467,7 @@ img {
   position: relative;
   padding-left: 17px;
   margin: 0 0 15px 0;
-  color: #fbe200;
+  color: #b026ff;
   font: 14px / 14px GothamPro-Regular;
 }
 .journey-section .bottom-wrapper h5 svg {
@@ -1583,7 +1583,7 @@ img {
   text-align: center;
   margin: 0 auto 80px auto;
   font: 86px / 129px "Bebas Neue";
-  color: #fbe200;
+  color: #b026ff;
 }
 .faq-section .faq-banner {
   display: block;
@@ -1679,7 +1679,7 @@ img {
   text-align: center;
   margin: 0px 0 3px 0;
   font: 86px / 129px "Bebas Neue";
-  color: #fbe200;
+  color: #b026ff;
 }
 .gallery-text-wrapper p {
   margin: 0;
@@ -1810,7 +1810,7 @@ img {
   text-align: center;
   margin-bottom: 1em;
   font: 86px / 129px "Bebas Neue";
-  color: #fbe200;
+  color: #b026ff;
 }
 
 #aboutCarousel .carousel-inner {
@@ -1862,5 +1862,5 @@ img {
   text-align: center;
   margin: 0 0 3px 0;
   font: 86px / 129px "Bebas Neue";
-  color: #fbe200;
+  color: #b026ff;
 }
