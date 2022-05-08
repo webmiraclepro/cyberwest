@@ -686,7 +686,7 @@ img {
 
 /* Team Page CSS */
 .team-section {
-  padding: 130px 0 0 0;
+  padding: 8em 0 0 0;
 }
 .team-section .team-row {
   margin-left: -15px;
@@ -700,7 +700,7 @@ img {
   width: 100%;
   max-width: 255px;
   margin: 0 15px 100px 15px;
-  padding: 25px;
+  padding: 30px;
 }
 .team-section .team-img-wrapper {
   position: relative;
@@ -1573,7 +1573,7 @@ img {
 /* FAQ Page CSS */
 
 .faq-section {
-  padding: 100px 0 150px 0;
+  padding: 8em 0 150px 0;
 }
 .faq-section .faq-inner {
   max-width: 70%;
@@ -1677,7 +1677,7 @@ img {
   text-align: center;
   font: 32px / 46px GothamPro-Medium; */
   text-align: center;
-  margin: 100px 0 3px 0;
+  margin: 0px 0 3px 0;
   font: 86px / 129px "Bebas Neue";
   color: #fbe200;
 }

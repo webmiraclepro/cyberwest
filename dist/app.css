@@ -4839,7 +4839,7 @@
 }
 
 .tf-section.tf-roadmap {
-  padding-bottom: 0;
+  padding-bottom: 20px;
 }
 .tf-section.tf-roadmap .overlay {
   background: url("./../../assets/images/backgroup/bg1roadmap.png") center
@@ -7379,7 +7379,7 @@ input[type="color"]::placeholder {
 }
 .tf-section {
   position: relative;
-  padding: 80px 0;
+  padding: 8em 0;
   margin-bottom: 0 !important;
 }
 
