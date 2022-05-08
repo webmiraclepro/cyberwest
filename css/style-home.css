@@ -700,6 +700,7 @@ img {
   width: 100%;
   max-width: 255px;
   margin: 0 15px 100px 15px;
+  padding: 25px;
 }
 .team-section .team-img-wrapper {
   position: relative;
@@ -744,6 +745,7 @@ img {
 .team-section .team-box.large {
   max-width: 390px;
   margin-bottom: 120px;
+  padding: 30px;
 }
 .team-section .team-box.large .team-img-wrapper {
   max-width: 276px;
@@ -1233,7 +1235,7 @@ img {
 .journey-roadmap {
   padding: 89px 0 0px 0;
   position: relative;
-  margin-bottom: 110px;
+  margin-bottom: 70px;
   z-index: 2;
 }
 .journey-roadmap .round-v-line {
@@ -1574,7 +1576,7 @@ img {
   padding: 100px 0 150px 0;
 }
 .faq-section .faq-inner {
-  max-width: 726px;
+  max-width: 70%;
   margin: 0 auto;
 }
 .faq-section h1 {
@@ -1598,7 +1600,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 20px 5px 10px;
+  padding: 10px 20px;
   border: 1px solid #1d1d1d;
   border-radius: 2px;
   background: #1d1d1d;
@@ -1608,8 +1610,11 @@ img {
   transition: all 0.3s ease-in;
 }
 .faq-section .btn-question:hover {
-  background: #1d1d1d;
+  background: #0e2331 !important;
   color: #ededed;
+  box-shadow: 0 0px 32px 0 rgb(34 183 143 / 50%);
+  border-color: #14c2a3;
+  border: 2px solid #14c2a3;
 }
 .faq-section .btn-question.collapsed {
   background: transparent;
@@ -1672,7 +1677,7 @@ img {
   text-align: center;
   font: 32px / 46px GothamPro-Medium; */
   text-align: center;
-  margin: 0 0 3px 0;
+  margin: 100px 0 3px 0;
   font: 86px / 129px "Bebas Neue";
   color: #fbe200;
 }
@@ -1819,6 +1824,7 @@ img {
 
 .about-us .about-image {
   width: 60%;
+  padding: 0 30px;
 }
 .about-us .about-image img {
   width: 100%;
@@ -1843,4 +1849,11 @@ img {
   .about-us .about-content {
     width: 100%;
   }
+}
+
+.tf-title h1 {
+  text-align: center;
+  margin: 0 0 3px 0;
+  font: 86px / 129px "Bebas Neue";
+  color: #fbe200;
 }
