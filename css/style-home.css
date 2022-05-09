@@ -1,22 +1,22 @@
 @font-face {
-  font-family: GothamPro-Regular;
-  src: local(GothamPro-Regular),
-    url("../fonts/GothamPro-Regular.otf") format("opentype");
+  font-family: Nurom-Regular;
+  src: local(Nurom-Regular),
+    url("../fonts/FontsFree-Net-Nurom-Bold") format("opentype");
 }
 @font-face {
-  font-family: GothamPro-Bold;
-  src: local(GothamPro-Bold),
-    url("../fonts/GothamPro-Bold.ttf") format("truetype");
+  font-family: Nurom-Bold;
+  src: local(Nurom-Bold),
+    url("../fonts/FontsFree-Net-Nurom-Bold") format("truetype");
 }
 @font-face {
-  font-family: GothamPro-Medium;
-  src: local(GothamPro-Medium),
-    url("../fonts/GothamPro-Medium.otf") format("opentype");
+  font-family: Nurom-Medium;
+  src: local(Nurom-Medium),
+    url("../fonts/FontsFree-Net-Nurom-Bold") format("opentype");
 }
 @font-face {
   font-family: JustMeAgainDownHere;
   src: local(JustMeAgainDownHere),
-    url("../fonts/JustMeAgainDownHere.ttf") format("truetype");
+    url("../fonts/FontsFree-Net-Nurom-Bold") format("truetype");
 }
 
 /* All common codes for desktop and mobile version */
@@ -134,7 +134,7 @@ img {
   padding: 4px 5px;
   margin-left: 15px;
   color: #fff;
-  font: 12px / 14px GothamPro-Regular;
+  font: 12px / 14px "Sansation Regular", arial;
   transition: all 0.3s ease-in;
   text-transform: uppercase;
   position: relative;
@@ -687,6 +687,7 @@ img {
 /* Team Page CSS */
 .team-section {
   padding: 8em 0 0 0;
+  font-family: "Sansation Regular", arial !important;
 }
 .team-section .team-row {
   margin-left: -15px;
@@ -759,26 +760,26 @@ img {
   color: #ffe500;
   margin: 0;
   text-transform: uppercase;
-  font: 20px / 29px GothamPro-Medium;
+  font: 20px / 29px;
 }
 .team-section h4 {
   letter-spacing: 0.03em;
   color: #db00ff;
   text-align: center;
   margin: 0 0 5px 0;
-  font: 30px / 38px JustMeAgainDownHere;
+  font: 30px / 38px;
 }
 .team-section p {
   margin: 0;
   text-align: center;
   color: #c1c1c1;
-  font: 16px / 23px GothamPro-Regular;
+  font: 16px / 23px;
 }
 .team-section .large h2 {
-  font: 22px / 32px GothamPro-Medium;
+  font: 22px / 32px;
 }
 .team-section .large h4 {
-  font: 32px / 40px JustMeAgainDownHere;
+  font: 32px / 40px;
   margin-bottom: 10px;
 }
 .team-section .large p {
@@ -798,13 +799,13 @@ img {
   color: #c1c1c1;
   text-align: center;
   margin: 0 0 75px 0;
-  font: 32px / 46px GothamPro-Medium;
+  font: 32px / 46px;
 }
 .team-section h3 {
   margin: 0 0 10px 0;
   color: #ffe500;
   text-transform: uppercase;
-  font: 20px / 30px GothamPro-Medium;
+  font: 20px / 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -849,7 +850,7 @@ img {
   border: 1px solid transparent;
   border-radius: 62px;
   color: #fff;
-  font: 13px / 20px GothamPro-Regular;
+  font: 13px / 20px;
   background: linear-gradient(#00c2ff, #db00ff) padding-box,
     linear-gradient(to right, #00c2ff, #db00ff) border-box;
   transition: all 0.3s ease-in;
@@ -1604,7 +1605,7 @@ img {
   border: 1px solid #1d1d1d;
   border-radius: 2px;
   background: #1d1d1d;
-  font: 22px / 32px GothamPro-Regular;
+  font: 22px / 32px "Sansation Regular", arial;
   background: #1d1d1d;
   color: #ededed;
   transition: all 0.3s ease-in;
@@ -1644,7 +1645,7 @@ img {
 .faq-section .answer p {
   margin: 0;
   color: #ededed;
-  font: 18px / 26px GothamPro-Regular;
+  font: 18px / 26px "Sansation Regular", arial;
 }
 .faq-section .answer p.mb {
   margin-bottom: 17px;
@@ -1686,10 +1687,10 @@ img {
   text-align: center;
   color: #c0c0c0;
   text-transform: uppercase;
-  font: 20px / 29px GothamPro-Regular;
+  font: 20px / 29px "Sansation Regular", arial;
 }
 .gallery-text-wrapper p b {
-  font-family: GothamPro-Regular;
+  font-family: "Sansation Regular", arial;
   color: #fff;
 }
 
@@ -1839,7 +1840,8 @@ img {
 .about-us .about-content {
   width: 40%;
   color: #fff;
-  font: 18px / 18px GothamPro-Regular;
+  font-size: 18px;
+  font-family: "Sansation Regular", arial;
 }
 
 @media only screen and (max-width: 500px) {

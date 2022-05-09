@@ -1159,6 +1159,7 @@
 .roadmap .box .rm-box ul li {
   padding-left: 26px;
   position: relative;
+  font-family: "Sansation Regular", arial !important;
 }
 .roadmap .box .rm-box ul li::before {
   position: absolute;
