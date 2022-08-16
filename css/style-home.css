@@ -1,22 +1,22 @@
 @font-face {
-  font-family: Nurom-Regular;
-  src: local(Nurom-Regular),
-    url("../fonts/FontsFree-Net-Nurom-Bold") format("opentype");
+  font-family: GothamPro-Regular;
+  src: local(GothamPro-Regular),
+    url('../fonts/GothamPro-Regular.otf') format('opentype');
 }
 @font-face {
-  font-family: Nurom-Bold;
-  src: local(Nurom-Bold),
-    url("../fonts/FontsFree-Net-Nurom-Bold") format("truetype");
+  font-family: GothamPro-Bold;
+  src: local(GothamPro-Bold),
+    url('../fonts/GothamPro-Bold.ttf') format('truetype');
 }
 @font-face {
-  font-family: Nurom-Medium;
-  src: local(Nurom-Medium),
-    url("../fonts/FontsFree-Net-Nurom-Bold") format("opentype");
+  font-family: GothamPro-Medium;
+  src: local(GothamPro-Medium),
+    url('../fonts/GothamPro-Medium.otf') format('opentype');
 }
 @font-face {
   font-family: JustMeAgainDownHere;
   src: local(JustMeAgainDownHere),
-    url("../fonts/FontsFree-Net-Nurom-Bold") format("truetype");
+    url('../fonts/JustMeAgainDownHere.ttf') format('truetype');
 }
 
 /* All common codes for desktop and mobile version */
@@ -134,7 +134,7 @@ img {
   padding: 4px 5px;
   margin-left: 15px;
   color: #fff;
-  font: 12px / 14px "Sansation Regular", arial;
+  font: 12px / 14px GothamPro-Regular;
   transition: all 0.3s ease-in;
   text-transform: uppercase;
   position: relative;
@@ -145,13 +145,13 @@ img {
   height: 14px;
 }
 .top-menu-inner > a::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   bottom: 0;
   width: 0;
   height: 1px;
-  background: #db00ff;
+  background: #ff60f3;
   transform: translateX(-50%);
   transition: all 0.3s ease-in;
 }
@@ -161,7 +161,7 @@ img {
 }
 .top-menu-inner > a:hover,
 .top-menu-inner > a:focus {
-  color: #db00ff;
+  color: #ff60f3;
   text-decoration: none;
 }
 .top-menu-inner .social-icons svg path {
@@ -176,10 +176,16 @@ img {
 } */
 .top-menu-inner .social-icons:hover svg stop,
 .top-menu-inner .social-icons:focus svg stop {
-  stop-color: #db00ff;
+  stop-color: #ff60f3;
 }
 .top-menu-inner .social-icons span {
   display: none;
+}
+.right-side {
+  display: none;
+}
+#comingSoon {
+  margin-top: 250px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -206,6 +212,12 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
+  .left-side {
+    display: none;
+  }
+  .right-side {
+    display: block;
+  }
   .top-menu.visible {
     opacity: 1;
     padding: 25px 15px 15px 15px;
@@ -429,7 +441,7 @@ img {
   position: relative;
 }
 .footer p.copy a::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   height: 1px;
@@ -687,7 +699,6 @@ img {
 /* Team Page CSS */
 .team-section {
   padding: 8em 0 0 0;
-  font-family: "Sansation Regular", arial !important;
 }
 .team-section .team-row {
   margin-left: -15px;
@@ -712,7 +723,14 @@ img {
 }
 .team-section .team-img-wrapper .profile-img {
   display: block;
-  max-width: 100%;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+.team-section .team-img-wrapper .profile-img-sm {
+  display: block;
+  width: 200px !important;
+  height: 200px !important;
   border-radius: 50%;
 }
 .team-section .social-link {
@@ -744,12 +762,15 @@ img {
   max-width: 20px;
 }
 .team-section .team-box.large {
-  max-width: 390px;
+  max-width: 380px;
   margin-bottom: 120px;
   padding: 30px;
 }
 .team-section .team-box.large .team-img-wrapper {
   max-width: 276px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .team-section .team-box.large .social-link {
   bottom: 20px;
@@ -760,26 +781,26 @@ img {
   color: #ffe500;
   margin: 0;
   text-transform: uppercase;
-  font: 20px / 29px;
+  font: 20px / 29px GothamPro-Medium;
 }
 .team-section h4 {
   letter-spacing: 0.03em;
   color: #db00ff;
   text-align: center;
   margin: 0 0 5px 0;
-  font: 30px / 38px;
+  font: 30px / 38px JustMeAgainDownHere;
 }
 .team-section p {
   margin: 0;
   text-align: center;
   color: #c1c1c1;
-  font: 16px / 23px;
+  font: 16px / 23px GothamPro-Regular;
 }
 .team-section .large h2 {
-  font: 22px / 32px;
+  font: 22px / 32px GothamPro-Medium;
 }
 .team-section .large h4 {
-  font: 32px / 40px;
+  font: 32px / 40px JustMeAgainDownHere;
   margin-bottom: 10px;
 }
 .team-section .large p {
@@ -799,13 +820,13 @@ img {
   color: #c1c1c1;
   text-align: center;
   margin: 0 0 75px 0;
-  font: 32px / 46px;
+  font: 32px / 46px GothamPro-Medium;
 }
 .team-section h3 {
   margin: 0 0 10px 0;
   color: #ffe500;
   text-transform: uppercase;
-  font: 20px / 30px;
+  font: 20px / 30px GothamPro-Medium;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -850,7 +871,7 @@ img {
   border: 1px solid transparent;
   border-radius: 62px;
   color: #fff;
-  font: 13px / 20px;
+  font: 13px / 20px GothamPro-Regular;
   background: linear-gradient(#00c2ff, #db00ff) padding-box,
     linear-gradient(to right, #00c2ff, #db00ff) border-box;
   transition: all 0.3s ease-in;
@@ -909,6 +930,22 @@ img {
   }
 }
 
+.partner-section {
+  padding: 6em 0 0 0;
+}
+.partner-row {
+  text-align: center;
+}
+.partner-row img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .partner-section {
+    padding: 0;
+  }
+}
+
 /* Mint Row CSS */
 .mint-row {
   position: fixed;
@@ -939,13 +976,13 @@ img {
 .mint-row h4 {
   margin: 0 10px 0 0;
   color: #ffe500;
-  font: 21px / 20px "Bebas Neue", cursive;
+  font: 21px / 20px 'Bebas Neue', cursive;
 }
 .mint-row h1 {
   margin: 0;
   color: #ffe500;
   letter-spacing: -0.02em;
-  font: 56px / 84px "Bebas Neue", cursive;
+  font: 56px / 84px 'Bebas Neue', cursive;
 }
 .mint-row .right-outer {
   border: 1px solid rgba(192, 192, 192, 0.2);
@@ -1011,7 +1048,7 @@ img {
 .mint-row .countdown h3 {
   margin: 0;
   color: #ffe500;
-  font: 47px / 42px "Bebas Neue", cursive;
+  font: 47px / 42px 'Bebas Neue', cursive;
 }
 .mint-row .countdown p {
   margin: 0 0 4px 0;
@@ -1030,10 +1067,11 @@ img {
 
 .character-section {
   height: 100vh;
-  padding: 100px 0 0 0;
+  padding: 330px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-image: url(../images/home/main1.png); */
 }
 .character-section .character-inner {
   display: flex;
@@ -1216,7 +1254,7 @@ img {
 .journey-banner h1 {
   text-align: center;
   margin: 0 0 3px 0;
-  font: 86px / 129px "Bebas Neue";
+  font: 86px / 129px 'Bebas Neue';
   color: #b026ff;
 }
 .journey-banner h2 {
@@ -1371,7 +1409,7 @@ img {
 .journey-roadmap .box h3 {
   margin: 0 0 10px 0;
   color: #fff;
-  font: 36px / 36px "Bebas Neue";
+  font: 36px / 36px 'Bebas Neue';
   text-transform: uppercase;
 }
 .journey-roadmap .completed h3,
@@ -1583,7 +1621,7 @@ img {
 .faq-section h1 {
   text-align: center;
   margin: 0 auto 80px auto;
-  font: 86px / 129px "Bebas Neue";
+  font: 86px / 129px 'Bebas Neue';
   color: #b026ff;
 }
 .faq-section .faq-banner {
@@ -1605,7 +1643,7 @@ img {
   border: 1px solid #1d1d1d;
   border-radius: 2px;
   background: #1d1d1d;
-  font: 22px / 32px "Sansation Regular", arial;
+  font: 22px / 32px GothamPro-Regular;
   background: #1d1d1d;
   color: #ededed;
   transition: all 0.3s ease-in;
@@ -1645,7 +1683,7 @@ img {
 .faq-section .answer p {
   margin: 0;
   color: #ededed;
-  font: 18px / 26px "Sansation Regular", arial;
+  font: 18px / 26px GothamPro-Regular;
 }
 .faq-section .answer p.mb {
   margin-bottom: 17px;
@@ -1679,7 +1717,7 @@ img {
   font: 32px / 46px GothamPro-Medium; */
   text-align: center;
   margin: 0px 0 3px 0;
-  font: 86px / 129px "Bebas Neue";
+  font: 86px / 129px 'Bebas Neue';
   color: #b026ff;
 }
 .gallery-text-wrapper p {
@@ -1687,10 +1725,10 @@ img {
   text-align: center;
   color: #c0c0c0;
   text-transform: uppercase;
-  font: 20px / 29px "Sansation Regular", arial;
+  font: 20px / 29px GothamPro-Regular;
 }
 .gallery-text-wrapper p b {
-  font-family: "Sansation Regular", arial;
+  font-family: GothamPro-Regular;
   color: #fff;
 }
 
@@ -1747,7 +1785,7 @@ img {
     width: 100px;
   }
   .character-section {
-    padding: 90px 0 47px 0;
+    padding: 110px 0 47px 0;
     overflow: hidden;
     height: auto;
   }
@@ -1804,13 +1842,14 @@ img {
 /* About Section */
 
 .about-us {
+  margin-top: 70px;
   padding: 8em 0 4em;
 }
 
 .about-us h1 {
   text-align: center;
   margin-bottom: 1em;
-  font: 86px / 129px "Bebas Neue";
+  font: 86px / 129px 'Bebas Neue';
   color: #b026ff;
 }
 
@@ -1831,17 +1870,20 @@ img {
 }
 
 .about-us .about-image {
-  width: 60%;
+  width: 90%;
   padding: 0 30px;
 }
 .about-us .about-image img {
   width: 100%;
 }
 .about-us .about-content {
-  width: 40%;
+  /* width: 40%; */
   color: #fff;
-  font-size: 18px;
-  font-family: "Sansation Regular", arial;
+  font: 18px / 18px GothamPro-Regular;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10% !important;
 }
 
 @media only screen and (max-width: 500px) {
@@ -1857,12 +1899,90 @@ img {
   }
   .about-us .about-content {
     width: 100%;
+    margin-top: 20px;
+  }
+  .about-us h1 {
+    font: 60px / 129px 'Bebas Neue';
+  }
+  .about-us {
+    padding: 1em 0 2em;
+  }
+  .tf-title h1 {
+    font: 60px / 129px 'Bebas Neue' !important;
+  }
+  .gallery-text-wrapper h1 {
+    font: 60px / 129px 'Bebas Neue' !important;
+    line-height: 120% !important;
+    padding-bottom: 1em;
+  }
+  .faq-section h1 {
+    font: 60px / 129px 'Bebas Neue' !important;
+    margin-bottom: 40px;
+  }
+  .team-section {
+    padding-top: 2em;
+  }
+  .faq-section {
+    padding-top: 2em;
+  }
+  .faq-section .btn-question {
+    font: 18px / 32px GothamPro-Regular;
   }
 }
 
 .tf-title h1 {
   text-align: center;
   margin: 0 0 3px 0;
-  font: 86px / 129px "Bebas Neue";
+  font: 86px / 129px 'Bebas Neue';
   color: #b026ff;
+}
+
+@media only screen and (max-width: 500px) {
+  .team-section .team-img-wrapper .profile-img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .team-section .team-img-wrapper .profile-img-sm {
+    display: block;
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50%;
+  }
+}
+
+/* //fixing */
+
+/* @media only screen and (min-width: 1700px) {
+  .homepage {
+    padding-top: 200px !important;
+  }
+} */
+
+/* @media only screen and (min-width: 1600px) {
+  .homepage {
+    padding-top: 70px !important;
+  }
+} */
+
+/* @media only screen and (max-width: 1000px) {
+  .homepage {
+    padding-top: 90px !important;
+  }
+} */
+
+.about-us-carousel {
+  display: flex;
+  padding: 0 20px;
+}
+
+#aboutCarousel {
+  display: flex !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-content {
+    padding: 30px 40px 0px 50px;
+  }
 }

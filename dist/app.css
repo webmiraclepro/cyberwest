@@ -1089,8 +1089,8 @@
 }
 .roadmap::after {
   width: 6px;
-  height: 50%;
-  background: #565660;
+  height: 27%;
+  background: #14c2a3;
   position: absolute;
   top: 0;
   left: 49.8%;
@@ -1099,13 +1099,13 @@
 }
 .roadmap::before {
   width: 6px;
-  height: 55%;
-  background: #14c2a3;
+  height: 75%;
+  background: #353938;
   position: absolute;
-  top: 46%;
+  top: 27%;
   left: 49.8%;
   content: "";
-  z-index: 1;
+  z-index: -1;
 }
 .roadmap .box {
   width: 50%;
@@ -1136,7 +1136,7 @@
 }
 .roadmap .box .rm-box .corner-box {
   position: relative;
-  background: #0e2431;
+  background: #13182b;
   padding: 18px;
 }
 .roadmap .box .rm-box .corner-box.active,
@@ -1154,12 +1154,11 @@
 }
 .roadmap .box .rm-box .corner-box::before,
 .roadmap .box .rm-box .corner-box::after {
-  background: #0e2431;
+  background: #13182b;
 }
 .roadmap .box .rm-box ul li {
   padding-left: 26px;
   position: relative;
-  font-family: "Sansation Regular", arial !important;
 }
 .roadmap .box .rm-box ul li::before {
   position: absolute;
@@ -1180,7 +1179,7 @@
 }
 .roadmap .box .rm-box.style::after,
 .roadmap .box .rm-box.style::before {
-  background: #565660;
+  background: #14c2a3;
 }
 .roadmap .box.box-left .rm-box {
   padding-right: 62px;
@@ -7385,3 +7384,15 @@ input[type="color"]::placeholder {
 }
 
 /*# sourceMappingURL=app.css.map */
+
+#marginBottom150 {
+  margin-bottom: 150px !important;
+}
+.bg-blue {
+  background: #0e2431 !important;
+}
+
+.bg-blue::after,
+.bg-blue::before {
+  background: #0e2431 !important;
+}
